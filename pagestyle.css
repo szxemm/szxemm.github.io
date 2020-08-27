@@ -1,0 +1,327 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+	padding:0;
+	margin:0;
+}
+
+html{
+	background-color: white; /*#eaf0f2*/
+	min-height: 100%;
+}
+
+body{
+	font:17px/1.5 Arial, Helvetica, sans-serif;
+	margin-bottom: 60px;
+}
+.contact{
+	font:14px/1.5 Arial, Helvetica, sans-serif;
+	margin-bottom: 20px; /*30px*/
+
+}
+.tab {
+	margin-left: 30px;
+}
+/*
+header{
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom:200px;
+} */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+.header h1{
+	font-family: Arial;/* font:normal 32px/1.5,'Open Sans', sans-serif;*/
+	font-size: 50px;
+	text-align: center;
+	/*color: #3F71AE;*/
+	padding-bottom: 16px;
+}
+
+header h2{
+	color: #F05283;
+	text-align: center;
+}
+
+header h2 a{
+	color:inherit;
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #F05283;
+	padding: 10px 15px;
+	border-radius: 3px;
+	font: bold 14px/1 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+header h2 a:hover{
+	background-color:#F05283;
+	transition:0.2s;
+	color:#fff;
+}
+.header h3 {
+  font-size: 20px;
+}
+
+header ul {
+	max-width: 600px;
+	margin: 60px auto 0;
+}
+
+header ul a{
+	text-decoration: none;
+	color: #FFF;
+	text-align: left;
+	background-color: #B9C1CA;
+	padding: 10px 16px;
+	border-radius: 2px;
+	opacity: 0.8;
+	font-size: 16px;
+	display: inline-block;
+	margin: 4px;
+	line-height: 1;
+	outline: none;
+	transition: 0.2s ease;
+}
+
+header ul li a.active{
+	background-color: #66B650;
+	pointer-events: none;
+}
+
+header ul li a:hover {
+	opacity: 1;
+}
+
+header ul{
+	list-style: none;
+	padding: 0;
+}
+
+header ul li{
+	display: inline-block;
+}
+
+hr{
+	margin-top: auto;
+	margin-bottom: 3px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+/* Responsive navbar */
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+/* Left and right column */
+.column.side {
+  width: 20%;
+	min-height: 40vh;
+}
+/* Middle column */
+.column.middle {
+  width: 60%;
+	min-height: 40vh;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+.full {
+    width: 100%;
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer {
+	background: #292c2f;
+	height: auto;
+	padding-bottom: 0px;
+	position: absolute;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+	/*bottom: 0;*/
+}
+
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	color: #8C8984; /*white*/
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 10px 0 0px;
+	text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer h4 {
+	color: white;
+	font-size: 1.3em;
+	font-weight: 400;
+	line-height: 10px; /*38*/
+	padding: 0; /*10px 0 10px*/
+	font-family: cursive;
+  font-weight: lighter
+}
+
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 0px;
+	color: #7F8C8D;
+  padding: 0 0 8px 0;
+}
+
+.email{
+  border-bottom: 1px solid #fff;
+}
+.footer ul li a {
+	padding: 0 0 10px 0;
+	display: block;
+}
+.footer a {
+	color: white;
+  font-weight: lighter;
+}
+
+.footer p {
+	color: white;
+  font-weight: lighter;
+  font-size:
+}
+
+.footer a:hover {
+	text-decoration:none;
+  font-weight: bold;
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+
+}
+.footer a {
+	color: #78828D
+}
+
+.footer-bottom {
+  margin-top: 2em;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+  font-size: 0.75em;
+}
+.footer-bottom p.pull-center{
+	text-align: center;
+	padding-top: 6px;
+	font-size: 0.75em;
+	color:  #8C8984;
+}
+.formsize {
+    width: 50%;
+}
+
+.addresscol {
+	float: left;
+	 width: 25%;
+}
+.table {
+	margin-bottom: 1px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 0px;
+	line-height: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.footer .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #8C8984;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 2px;
+}
